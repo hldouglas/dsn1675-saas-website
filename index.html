@@ -5,7 +5,7 @@
   <title>SpeakEasy</title>
   <link href='https://fonts.googleapis.com/css?family=Merriweather|Oswald:400,300,700' rel='stylesheet' type='text/css'>
   <link href="css/modules.css" rel="stylesheet">
-  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/grids.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <meta name="handheldfriendly" content="true">
@@ -15,13 +15,14 @@
 <body>
 
   <header>
+    <h1 class="brand brand-color text-left bold island push-0">SpeakEasy</h1>
     <nav>
       <input type="checkbox" class="nav-check" id="nav-check">
       <label class="nav-label" for="nav-check">
         <img class="nav-open" src="images/nav-icon.svg" alt="Open Navigation">
         <img class="nav-close" src="images/nav-icon-close.svg" alt="Close Navigation">
       </label>
-      <ul class="nav">
+      <ul class="nav normal">
         <li><a href="#index.html">Homepage</a></li>
         <li><a href="#tour.html">Take a Tour</a></li>
         <li><a href="#price.html">Price Plans</a><li>
@@ -29,6 +30,31 @@
       </ul>
     </nav>
   </header>
+
+  <main class="pad-t-2">
+    <div class="grid">
+      <div class="unit unit-xs-1 unit-s-1">
+        <h2 class="brand pad-t-2">SpeakEasy</h2>
+      </div>
+      <div class="unit unit-xs-1 unit-s-1">
+        <p class="text-center">An online language learning program for beginners of all ages</p>
+      </div>
+    </div>
+
+    <div class="grid gutter">
+      <div class="unit unit-xs-1 unit-s-1">
+        <h2 class="brand">What do we offer?</h2>
+      </div>
+      <div class="unit unit-xs-1 unit-s-1">
+        <p>The best way to learn a new language is to get out and use it. SpeakEasy
+          provides a simple, clean and easy platform of games and activities for
+          learning the basics for easy communication, that will quickly grow as you
+          move along the platforms. These fun and simple activities coupled with
+          video and live chat options, as well as tutoring services, will bring you
+          to the level of fluency you need.</p>
+      </div>
+    </div>
+  </main>
 
 </body>
 </html>

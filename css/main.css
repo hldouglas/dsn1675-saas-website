@@ -3,30 +3,47 @@
   font-family: 'Oswald', sans-serif;
 */
 
+.brand {
+  font-family: 'Oswald', sans-serif;
+}
+
+.brand-color {
+  color: white;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+}
+
+header {
+  background-color: black;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
 .nav {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  background-color: #AC1816;
+  background-color: #636466;
   display: none;
   position: absolute;
-  right: 0;
   top: 100%;
-  width: 35em;
+  width: 15em;
 }
 
 .nav a {
   display: block;
   padding: 0.25em;
   text-decoration: none;
-  color: #fff;
-  font-size: 400%;
-  font-family: Verdana, Geneva, sans-serif;
-  line-height: 175%;
+  color: white;
+  font-family: 'Oswald', sans-serif;
 }
 
 .nav a:hover {
-  background-color: #71090A;
+  background-color: #444648;
   color: #fff;
 }
 
@@ -42,10 +59,10 @@
 .nav-label {
   cursor: pointer;
   display: inline-block;
-  width: 200px;
+  width: 32px;
   position: absolute;
   right: 25px;
-  top: 9px;
+  top: 19px;
   margin: 5px;
   padding: 5px;
 }
@@ -57,7 +74,7 @@
 }
 
 .nav-check:checked ~ .nav-label {
-  background-color: #AC1816;
+  background-color: #636466;
 }
 
 .nav-close {
