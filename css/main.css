@@ -88,3 +88,13 @@ header {
 .nav-check:checked ~ .nav-label .nav-close {
   display: block;
 }
+
+.banner {
+  background-image: url(http://placehold.it/350x150);
+  background-size: cover;
+  background-position: center;
+  width: auto;
+  height: auto;
+  position: inherit;
+  float: left;
+}
