@@ -2,3 +2,72 @@
   font-family: 'Merriweather', serif;
   font-family: 'Oswald', sans-serif;
 */
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: #AC1816;
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  width: 35em;
+}
+
+.nav a {
+  display: block;
+  padding: 0.25em;
+  text-decoration: none;
+  color: #fff;
+  font-size: 400%;
+  font-family: Verdana, Geneva, sans-serif;
+  line-height: 175%;
+}
+
+.nav a:hover {
+  background-color: #71090A;
+  color: #fff;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-label {
+  cursor: pointer;
+  display: inline-block;
+  width: 200px;
+  position: absolute;
+  right: 25px;
+  top: 9px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%;
+}
+
+.nav-check:checked ~ .nav-label {
+  background-color: #AC1816;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+}
