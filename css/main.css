@@ -11,6 +11,10 @@
   color: white;
 }
 
+.light {
+  font-weight: 300;
+}
+
 p {
   font-family: 'Merriweather', serif;
 }
